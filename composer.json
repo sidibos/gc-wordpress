@@ -1,0 +1,17 @@
+{
+  "name": "sidibos/wp-main",
+  "config": { "secure-http": false },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.4"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
+}
